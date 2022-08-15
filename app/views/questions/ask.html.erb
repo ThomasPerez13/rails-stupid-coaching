@@ -1,0 +1,6 @@
+<h1>What is your question to the stupid coach ?</h1>
+
+<form action="/answer" data-turbo="false">
+  <input class="form" type="text" name="question" value="<%= params[:question] %>" placeholder="Type your question">
+  <input type="submit" value="Ask!">
+</form>
